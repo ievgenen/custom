@@ -1,0 +1,3 @@
+GET     /index                      controllers.admin.CustomApplication.index()
+
+GET     /assets/*file               controllers.admin.Assets.versioned(path="/public", file)
